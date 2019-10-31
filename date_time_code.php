@@ -43,6 +43,13 @@ if (!function_exists('javascript_dateformate')) {
 }
 
 // +===================================+
+// | First & Last day of previous month |
+// +===================================+
+
+$last_start = date('Y-m-d', strtotime("first day of previous month"));
+$last_end = date('Y-m-d', strtotime("last day of previous month"));
+
+// +===================================+
 // | Time or Date Interval / Difference |
 // +===================================+
 
